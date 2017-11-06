@@ -17,10 +17,10 @@ public class Bear implements Bearable{
 
     private ArrayList<Edible> belly = new ArrayList<Edible>();
 
-    // pointless implementation
-    public Seal iceFish(){
-        return null;
-    }
+//    // pointless implementation
+//    public Seal iceFish(){
+//        return null;
+//    }
 
     // pointless implementation
 //    public String climbIceberg(){
@@ -53,8 +53,12 @@ public class Bear implements Bearable{
 
 //
 
-    public void climb(Climbable) {
+    public void climb(Climbable climb) {
 
+    }
+
+    public Edible obtainFood() {
+        return null;
     }
 
     public void eat(Edible food){

@@ -20,6 +20,7 @@ public interface Bearable{
 //    public String climbTree();
 //    public String climbIceberg();
     public void eat(Edible food);
+    public void climb(Climbable climb);
     public Edible obtainFood();
 
 }
