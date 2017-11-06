@@ -23,9 +23,9 @@ public class Bear implements Bearable{
     }
 
     // pointless implementation
-    public String climbIceberg(){
-        return null;
-    }
+//    public String climbIceberg(){
+//        return null;
+//    }
 
     public int foodCount(){
         return belly.size();
@@ -53,7 +53,7 @@ public class Bear implements Bearable{
 
 //
 
-    public void climb() {
+    public void climb(Climbable) {
 
     }
 
