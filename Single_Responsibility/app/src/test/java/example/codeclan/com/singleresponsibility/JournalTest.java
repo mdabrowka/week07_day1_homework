@@ -24,8 +24,8 @@ public class JournalTest {
     @Test
     public void canWriteJournalEntry(){
         bear.eat(food);
-        bear.writeJournal("Dear Diary, I ate " + bear.foodCount() + " salon today.");
-        assertEquals("Dear Diary, I ate 1 salon today.", bear.getLastJournalEntry());
+        journal.writeJournal("Dear Diary, I ate " + bear.foodCount() + " salon today.");
+        assertEquals("Dear Diary, I ate 1 salon today.", journal.getLastJournalEntry());
     }
 
 
